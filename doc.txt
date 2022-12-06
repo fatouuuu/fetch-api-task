@@ -28,4 +28,27 @@ responses:
   - information that is returned back to us upon making a request.
   - can be positive(success) or negative(failure)
 
+When using the fetch() method: 
+- access the fetch fn 
+- know the parameters to pass
+- promises 
 
+Handling promises 
+--> .then and .catch
+--> async and await 
+
+Promise: a JS object used to handle asynchronous operations. It is used 
+         to find out if the async operation is successfully completed or not.
+        --> .then and .catch methods: 
+        --> .then() - used with the callback when the promise is successfully 
+            fulfilled or resolved.
+        --> .catch() - used with the cb fn when the promise is rejected or 
+            if an error occurs 
+
+
+TASK: CREATING NEW ELEMENTS, ADDING CONTENT, APPENDING ELEMENTS TO OTHERS
+
+BREAKDOWN: 
+to-do 1: create a dynamic fn that will be used to purely create an 
+         element and add content to the elements 
+to-do 2: create a fn to append the added element to a desired destination 
