@@ -1,0 +1,31 @@
+notes on fetch api:
+
+The Fetch API is a promise-based interface for fetching resources 
+asynchronously by making HTTP requests to servers from web browsers. 
+
+The Fetch API provides a JavaScript interface for accessing and 
+manipulating parts of the HTTP pipeline, such as requests and responses.
+
+---> The URL
+---> HTTP verb
+---> The fetch() method itself
+
+The fetch() method takes one mandatory argument, the path to the 
+resource you want to fetch. It returns a Promise that resolves to 
+the Response to that request, whether it is successful or not. 
+You can also optionally pass in an init options object as the 
+second argument. Once a response is retrieved, there are a number 
+of methods available to define what the body content is and how it 
+should be handled. 
+
+requests: 
+  - making a call to an existing endpoint that has some data
+    held within it.
+  - URL and HTTP verb (GET, POST(body/payload), PUT(body/payload),
+    PATCH(body/payload), DELETE)
+
+responses:
+  - information that is returned back to us upon making a request.
+  - can be positive(success) or negative(failure)
+
+
